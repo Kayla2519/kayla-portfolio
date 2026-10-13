@@ -1,0 +1,29 @@
+
+/* Global styles for Kayla's portfolio */
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 24px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #0b0912;
+  background: #b29aff;
+}
+
+:focus-visible {
+  outline: 2px solid #b29aff;
+  outline-offset: 4px;
+}
